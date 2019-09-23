@@ -3,7 +3,6 @@ from nltk.tokenize import word_tokenize as wtk
 freq={}
 with open("C:\\Users\\khadidja\\Downloads\\word_cloud\\98-0.txt","r",encoding="utf-8") as src:
     data=src.read()
-    #data1=data.replace(".","")
     data=data.replace("“"," ")
     data=data.replace("”"," ")
     data=data.replace("’","'")
